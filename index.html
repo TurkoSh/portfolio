@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | SHAKHIDOV Turko</title>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/draggable/1.0.0-beta.12/draggable.bundle.js"
+        integrity="sha512-CY+c7SEffH9ZOj1B9SmTrJa/ulG0I6K/6cr45tCcLh8/jYqsNZ6kqvTFbc8VQA/rl9c2r4QBOx2Eur+2vkVWsA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/interactjs@1.10.12"></script>
+
+    <script src="/js/typing_animation.js" defer></script>
+    <script src="/js/scrollTo.js" defer></script>
+    <script src="/js/page-loader.js" defer></script>
+    <script src="/js/appear_animation.js" defer></script>
+    <script src="/js/drag_animation.js" defer></script>
+    <script src="/js/skills_animation.js" defer></script>
+    <script src="/js/onclick_sections.js" defer></script>
+    <script src="/js/video_preview.js" defer></script>
+    <script src="/js/handle_form.js" defer></script>
+</head>
+
+<body>
+
+    <div class="page-loader">
+        <!-- <p>Chargement en cours...</p> -->
+        <div class="loader-icon"></div>
+    </div>
+
+    <section id="slider-section" class="slider">
+        <img class="slider-image" src="../assets/images/intro-bg.webp" alt="Slider Image">
+        <div class="slider-content">
+
+            <div class="slider-text">
+                <p class="hello-text">‎ </p> <!-- typing animation -->
+                <h1>SHAKHIDOV TURKO</h1>
+            </div>
+
+            <p>DÉVELOPPEUR FULLSTACK</p>
+            <a class="button" id="slider-section-btn">LIRE PLUS</a>
+
+            <div class="contact-icons">
+                <a style="text-decoration: none;" href="tel:33-6-36-40-95-62">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                        <span>(+33) 07 62 16 31 61</span>
+                </a>
+            </div>
+
+            <div class="contact-icon">
+                <a style="text-decoration: unset;" href="mailto:turko.shakhidov@epitech.eu?subject=Bonjour.">
+                    <i class="fas fa-envelope"></i>
+                    <span>turko.shakhidov@epitech.eu</span>
+                </a>
+            </div>
+
+            <div class="contact-icon">
+                <a href="/assets/pdfs/CV (1).pdf" target="_blank">
+                    <i class="fas fa-file"></i>
+                    <span>TÉLÉCHARGER LE CV</span>
+                </a>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <section id="cv-section" class="cv-section animation-section">
+        <div class="cv-content">
+            <div class="about-me">
+                <div class="about-me-icon">
+                    <img src="/assets/images/pfp.jpg" alt="Photo of Turko">
+                </div>
+
+                <div class="about-me-text">
+                    <h2 class="animation-section animation-up">À propos de moi</h2>
+
+                    <p class="animation-section animation-right">Intégrateur web, initialement formé en autodidacte, je
+                        participe actuellement au programme de la <strong><a style="text-decoration: unset;"
+                                href="https://www.webacademie.org/lecole/webacademie-by-epitech/" target="_blank"
+                                class="epitech-link">Web@cademie</a> by Epitech</strong> pour affiner et développer mes
+                        compétences.
+                        Mes points
+                        forts se situent principalement dans la programmation en backend et les technologies associées.
+                        Je
+                        suis passionné par la veille technologique et les dernières tendances de l'industrie.</p>
+
+                    <a href="/assets/pdfs/CV (1).pdf" target="_blank" class="cv-download-button">Télécharger le
+                        CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="education-section" class="education-section">
+        <div class="section-heading cv-section animation-section animation-up">
+            <h2>ÉDUCATION</h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item animation-section animation-right">
+                <div class="timeline-content">
+                    <span class="time">INTÉGRATEUR WEB | RNCP 5 |</span>
+                    <span class="flag">2022 - 2024</span>
+                    <br>
+                    <span class="desc">Actuellement en première année de la <strong>Web@cademie by Epitech</strong>, je
+                        suis immergé dans
+                        un programme de formation intensif axé sur le développement web. Je m'engage activement dans des
+                        projets concrets et travaille en équipe pour acquérir des compétences pratiques en développement
+                        web. La Web@cademie met l'accent sur les langages et technologies actuellement utilisés dans
+                        l'industrie, ce qui me permet de me préparer efficacement à une carrière dans ce domaine
+                        passionnant. Je suis ravi de faire partie de cette expérience immersive qui me permet de
+                        développer mes compétences et de me préparer pour un avenir prometteur dans le développement
+                        web.</span>
+                    <a href="https://www.webacademie.org/la-formation/24-mois-pour-devenir-developpeur/" target="_blank"
+                        style="text-decoration: unset;">
+                        <div class="orange">Web@cademie by Epitech</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="timeline-item animation-section animation-right">
+                <div class="timeline-content">
+                    <span class="time">Faculté des sciences |</span>
+                    <span class="flag">2019-2021</span>
+                    <br>
+                    <span class="desc">
+                        Après avoir étudié à la faculté de science de Valrose, je me suis orienté vers la Web@cademie by Epitech. À Valrose, j'ai appris beaucoup sur les sciences et la manière de penser de façon analytique, ce qui m'aide maintenant dans le développement web. J'ai exploré différents sujets scientifiques, ce qui m'a aidé à m'adapter et à apprendre de nouvelles technologies. Ces connaissances sont très utiles pour mon avenir dans le développement web, en me donnant les outils pour résoudre des problèmes techniques de manière créative.
+                    </span>
+                    <div class="location">Faculté des sciences, Valrose Université </div>
+                </div>
+            </div>
+
+            <div class="timeline-item animation-section animation-right">
+                <div class="timeline-content">
+                    <span class="time">BAC STI2D</span>
+                    <span class="flag">2017-2018</span>
+                    <br>
+                    <span class="desc">Mon expérience au lycée technologique en STI2D a été fondamentale, mêlant innovation technologique et développement durable. L'un des moments forts a été la création d'un site web dans une matière spécialisée, une première immersion passionnante dans le monde du développement web. Cette expérience, combinée à des enseignements pratiques en sciences et ingénierie, a aiguisé ma capacité à analyser et résoudre des problèmes techniques, me préparant idéalement pour ma carrière future dans le développement web.</span>
+                    <div class="location">Lycée Guillaume apollinaire</div>
+                </div>
+            </div>
+
+            <div class="timeline-item animation-section animation-right">
+                <div class="timeline-content">
+                    <span class="time">BAC STI2D</span>
+                    <span class="flag">2018-2019</span>
+                    <br>
+                    <span class="desc">Mon expérience au lycée technologique en STI2D a été fondamentale, mêlant innovation technologique et développement durable. L'un des moments forts a été la création d'un site web dans une matière spécialisée, une première immersion passionnante dans le monde du développement web. Cette expérience, combinée à des enseignements pratiques en sciences et ingénierie, a aiguisé ma capacité à analyser et résoudre des problèmes techniques, me préparant idéalement pour ma carrière future dans le développement web.</span>
+                    <div class="location">Lycée Guillaume apollinaire</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills-section" class="skills-section animation-section">
+        <div class="section-heading animation-section animation-right">
+            <h2>Skills et outils</h2>
+        </div>
+
+        <div class="skills-content">
+            <div class="slider-container">
+
+                <div class="slider" id="slider">
+                    <div class="skills-item">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-js"></i>
+                        </a>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://www.w3schools.com/sql/" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-database"></i>
+                        </a>
+                        <span>SQL</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-html5"></i>
+                        </a>
+                        <span>HTML5</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-css3-alt"></i>
+                        </a>
+                        <span>CSS3</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/svg/icons8-visual-studio-code-2019.svg" />
+                        </a>
+                        <span>Visual Studio Code</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://github.com/" target="_blank" rel="nojaopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <span>GitHub</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-git"></i>
+                        </a>
+                        <span>Git</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://about.gitlab.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-gitlab"></i>
+                        </a>
+                        <span>GitLab</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-react"></i>
+                        </a>
+                        <span>React.js</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://reactnative.dev/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-react"></i>
+                        </a>
+                        <span>React Native</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/svg/icons8-mongodb.svg" alt="MongoDB">
+                        </a>
+                        <span>MongoDB</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-database"></i>
+                        </a>
+                        <span>PostgreSQL</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/svg/icons8-express-js.svg" />
+                        </a>
+                        <span>Express.js</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-php"></i>
+                        </a>
+                        <span>PHP</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://api.jquery.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-js"></i>
+                        </a>
+                        <span>jQuery</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-node-js"></i>
+                        </a>
+                        <span>Node.js</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-sass"></i>
+                        </a>
+                        <span>SCSS/Sass</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-figma"></i>
+                        </a>
+                        <span>Figma</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://trello.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-trello"></i>
+                        </a>
+                        <span>Trello</span>
+                    </div>
+
+                    <!-- <div class="skills-item">
+                        <a href="https://www.ovh.com/" target="_blank" rel="noopener noreferrer">
+                        </a>
+                        <i class="fab fa-ovh"></i>
+                        <span>OVH</span>
+                    </div> -->
+
+                    <div class="skills-item">
+                        <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-aws"></i>
+                        </a>
+                        <span>AWS</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://cloud.google.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <span>Google Cloud</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-js"></i>
+                        </a>
+                        <span>ES6</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://symfony.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-symfony"></i>
+                        </a>
+                        <span>Symfony</span>
+                    </div>
+
+                    <div class="skills-item">
+                        <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-laravel"></i>
+                        </a>
+                        <span>Laravel</span>
+                    </div>
+
+                </div>
+            </div>
+            <!-- <div class="slider-controls">
+                <button class="slider-arrow prev-arrow">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-arrow next-arrow">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="languages-section" class="languages-section animation-section">
+        <div class="section-heading animation-section animation-right">
+            <h2>Langues parlées</h2>
+        </div>
+
+        <div class="languages-content">
+            <div class="slider-container">
+                <div class="slider" id="slider">
+
+
+                    <div class="language-item">
+                        <img src="/assets/svg/gb_flag.svg" />
+                        <span>Anglais B2</span>
+                    </div>
+
+                    <div class="language-item">
+                        <img src="/assets/svg/fr_flag.svg" />
+                        <span>Français C2</span>
+                    </div>
+
+                    <div class="language-item" >
+                        <img src="/assets/svg/ru_flag.svg.png" style="border: 1px solid black;" />
+                        <span>Russe B1</span>
+                    </div>
+
+                    <div class="language-item">
+                        <img src="/assets/svg/Esp_flag.png" />
+                        <span>Espagnol A2</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects-section" class="projects-section">
+        <div class="section-heading animation-section ">
+            <h2>Projects</h2>
+        </div>
+
+        <div class="projects-grid ">
+
+            <div class="project">
+                <h3>MY_TWITTER</h3>
+
+                <div class="project-container">
+                    <img src="/assets/images/my_twitter.png" alt="Project 2" class="project-image">
+                    <video src="/assets/videos/my_twitter.mp4" class="project-video" muted loop></video>
+                </div>
+
+                <div class="project-languages">
+                    <span class="language">PHP (mvc)</span>
+                    <span class="language">Mysql</span>
+                    <span class="language">JavaScript</span>
+                    <span class="language">AJAX<span>
+                </div>
+
+                <p>Le projet <strong>My_twitter</strong> visait à créer un réseau social adapté aux étudiants,
+                    offrantdes fonctionnalités similaires
+                    ou identiques à celles de Twitter pourpromouvoir la communication et l'interaction entre les
+                    membres.</p>
+            </div>
+
+            <div class="project">
+                <h3>MY_BATTLESHIP</h3>
+                <div class="project-container">
+                    <img src="/assets/images/my_battleship.png" alt="Project 2" class="project-image">
+                    <video src="/assets/videos/my_battleship.mp4" class="project-video" muted loop></video>
+                </div>
+
+                <div class="project-languages">
+                    <span class="language">JavaScript (es6)</span>
+                    <span class="language">Websockets</span>
+                </div>
+
+                <p>Le projet <strong>My_battleship</strong> consite à développer un jeu de Bataille navale dans un
+                    navigateur web en utilisant JavaScript, HTML et CSS.
+                    Le projet nécessitait de solides compétences techniques en développement web et démontrait la
+                    capacité à gérer un projet complexe. J'ai implémenté des fonctionnalités telles que le jeu joueur
+                    contre ordinateur, des retours sur les tirs réussis/missés et un plateau de jeu dynamique.</p>
+            </div>
+
+            <div class="project">
+                <h3>MY_SPOTIFY</h3>
+                <div class="project-container">
+                    <img src="/assets/images/my_spotify.png" alt="Project 1" class="project-image">
+                    <video src="/assets/videos/my_spotify.mp4" class="project-video" muted loop></video>
+                </div>
+
+                <div class="project-languages">
+                    <span class="language">JavaScript</span>
+                    <span class="language">React.js</span>
+                    <span class="language">REST API</span>
+                </div>
+
+                <p>Le projet <strong>My_spotify</strong> impliquait le développement d'un site web qui utilise une API
+                    poursimplifier l'échange de
+                    données et améliorer l'intégration avec uneapplication externe, mettant en valeur mes compétences
+                    techniques etma capacité à gérer des projets complexes.
+
+                    <br><br>
+                    <strong>Note</strong>: Il m'est impossible actuellement de retrouver la version finale, ce que vous
+                    voyez sur la
+                    vidéo preview est la version non complète. De mémoire la version complète comporte des boutons
+                    non bootstrap, de
+                    meilleurs proportions, des pages détaillées pour chaque album et artiste, et un autoplay pour les
+                    musiques d'un artiste/album spécifique, ainsi qu'une fonction de recherche de musiques.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>MY_SNAPCHAT</h3>
+                <div class="project-container">
+                    <img src="/assets/images/my_snapchat.png" alt="Project 2" class="project-image">
+                    <video src="/assets/videos/my_snapchat.mp4" class="project-video" muted loop></video>
+                </div>
+
+                <div class="project-languages">
+                    <span class="language">JavaScript</span>
+                    <span class="language">React-Native</span>
+                    <span class="language">Expo</span>
+                    <span class="language">REST Api</span>
+                </div>
+
+                <p>Le projet <strong>My_Snapchat</strong> est une application mobile développée avecReact Native et
+                    Expo, permettant aux
+                    utilisateurs de prendre etd'envoyer des photos de manière instantanée à tout utilisateur
+                    del'application, ou en privé à un seul utilisateur. L'application à été deployé en .APK sur android.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>MY WYSIWYG</h3>
+                <div class="project-container">
+                    <img src="/assets/images/wysiwyg.png" alt="Project 2" class="project-image">
+                    <video src="/assets/videos/wysiwyg.mp4" class="project-video" muted loop></video>
+                </div>
+
+                <div class="project-languages">
+                    <span class="language">HTML</span>
+                    <span class="language">CSS</span>
+                    <span class="language">JavaScript (DOM MANIPULATION)</span>
+                </div>
+
+                <p>Le projet <strong>MY WYSIWYG</strong> consiste à développer un éditeur WYSIWYG (What You See Is What
+                    You Get) en
+                    JavaScript. Cet éditeur permettra aux utilisateurs de créer du contenu web visuellement attrayant en
+                    générant automatiquement le code HTML correspondant. L'objectif est de simplifier la création de
+                    contenu
+                    web sans nécessiter de connaissances approfondies en programmation.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>MY_BOOTSTRAP</h3>
+                <div class="project-container">
+                    <img src="/assets/images/my_bootstrap.png" alt="Project 2" class="project-image">
+                    <video src="/assets/videos/my_bootstrap.mp4" class="project-video" muted loop></video>
+                </div>
+
+                <div class="project-languages">
+                    <span class="language">HTML</span>
+                    <span class="language">SCSS</span>
+                </div>
+
+                <p>Le projet <strong>MY_BOOTSTRAP</strong> consiste à reproduire certaines fonctionnalités du framework
+                    Bootstrap en
+                    utilisant SCSS. L'objectif principal est de créer des fonctionnalités qui fonctionnent de manière
+                    similaire à celles de Bootstrap, même si elles peuvent avoir des noms différents.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>MY_IRC</h3>
+                <div class="project-container">
+                    <img src="/assets/images/my_irc.png" alt="Project 2" class="project-image">
+                    <video src="/assets/videos/my_irc.mp4" class="project-video" muted loop></video>
+                </div>
+
+                <div class="project-languages">
+                    <span class="language">React.js</span>
+                    <span class="language">CSS</span>
+                    <span class="language">Express.js</span>
+                    <span class="language">MongoDB</span>
+                    <span class="language">Socket.io</span>
+                </div>
+
+                <p>Le projet <strong>my_irc</strong> consiste à développer un serveur en utilisant NodeJS et Socket.io,
+                    permettant des connexions simultanées et la gestion de canaux. Une interface utilisateur intuitive
+                    et responsive en React.js est ajoutée pour faciliter l'utilisation du serveur sans avoir à connaître
+                    les commandes du chat.
+                    Les utilisateurs peuvent effectuer des actions telles que la /liste des canaux disponibles, la
+                    /création/suppression de canaux, la /connexion/déconnexion des canaux, et afficher la liste des
+                    utilisateurs connectés à un canal donné.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>MORPION</h3>
+                <div class="project-container">
+                    <img src="/assets/images/morpion.png" alt="Project 2" class="project-image">
+                    <video src="/assets/videos/morpion.mp4" class="project-video" muted loop></video>
+                </div>
+
+                <div class="project-languages">
+                    <span class="language">HTML</span>
+                    <span class="language">CSS</span>
+                    <span class="language">JavaScript (DOM MANIPULATION)</span>
+                </div>
+
+                <p>Le projet <strong>MORPION</strong> consiste à reproduire un morpion en utilisant uniquement
+                    JavaScript, le tout en 4 heures maximum en partant
+                    d'un design de base, le but était dans un premier temps de créer un morpion fonctionnel, et
+                    d'ajouter le plus de fonctionnalités possibles.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact-section" class="contact-section">
+        <div class="section-heading animation-section animation-right">
+            <h2>Contact</h2>
+        </div>
+
+        <div class="container flex-center">
+            <div class="content">
+                <div class="contact-left">
+                    <div class="contact-list">
+                        <div>
+                            <h3 class="item-title"><i class="fas fa-phone"></i>Téléphone</h3>
+                            <span>(+33) 07 62 16 31 61</span>
+                        </div>
+                        <div>
+                            <h3 class="item-title"><i class="fas fa-envelope"></i>Email</h3>
+                            <span><a href="mailto:turko.shakhidov@epitech.eu">turko.shakhidov@epitech.eu</a></span>
+                        </div>
+                        <div>
+                            <h3 class="item-title"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></i>Linkedin</h3>
+                            <span><a href="https://www.linkedin.com/in/turko-shakhidov-a752a225a/">Turko SHAKHIDOV</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
